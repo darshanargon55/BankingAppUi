@@ -104,8 +104,8 @@ fun CardItem(index:Int) {
         {
             Image(painter = image, contentDescription = card.cardName,Modifier.width(60.dp))
             Spacer(modifier = Modifier.height(10.dp))
-            Text(text = card.cardName, color = Color.White, fontSize = 17.sp, fontWeight = FontWeight.Bold)
-            Text(text = "$ "+card.balance.toString(), color = Color.White, fontSize = 17.sp, fontWeight = FontWeight.ExtraBold )
+            Text(text = card.cardName, color = Color.White, fontSize = 14.sp, fontWeight = FontWeight.Bold)
+            Text(text = "$ "+card.balance.toString(), color = Color.White, fontSize = 17.sp, fontWeight = FontWeight.SemiBold )
             Text(text = card.cardNumber, color = Color.White, fontSize = 17.sp, fontWeight = FontWeight.Bold)
         }
     }
