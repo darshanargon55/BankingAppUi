@@ -87,7 +87,7 @@ val currencyList = listOf(
 @Composable
 fun CurrencySection() {
     var isVisible by remember {
-        mutableStateOf(true)
+        mutableStateOf(false)
     }
     var iconState by remember {
         mutableStateOf(Icons.Rounded.KeyboardArrowUp)
